@@ -1,0 +1,35 @@
+<html>
+    <head><script>
+        
+        var pass = "1234";
+        
+        function login(){
+            if(document.getElementById("xd").value == pass)
+            {
+                console.log("yes");
+                window.open("https://raw.githubusercontent.com/szymsun/somescoutgamedata/main/1.txt", "_blank");
+            }
+        }
+
+
+
+    </script>
+    <style>
+        .centerxd{
+            max-width: fit-content;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    </head>
+    
+    <body><div class="centerxd">
+        <input type="password" id="xd" class="centerxd"><p>type the code</p>
+        <p><button onclick="login()" class="centerxd">login</button></p>
+        </div>
+
+        
+    </body>
+</html>
