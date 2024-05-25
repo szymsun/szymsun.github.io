@@ -1,2 +1,2 @@
 # szymsun.github.io
-asfdwsgafsdggsg
+## code for the website i guess
