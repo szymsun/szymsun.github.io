@@ -1,0 +1,78 @@
+@import url(https://googleapis.com);
+
+body {
+    font-family: 'Comic Sans MS', Bold;
+    background-image: url("resources/zazu_bg.jpg");
+    display:list-item;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.mystuff{
+    margin-left: 5%;
+    font-size: 400%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.pageheader{
+    padding-left: 1%;
+    display: flex;
+    overflow:auto;
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
+    align-content: stretch;
+    background-color: blue;
+}
+
+.titleText{
+    align-self: flex-start;
+    object-fit: fill;
+}
+
+.introduction{
+    margin-top: 0.5%;
+    margin-left: 3%;
+    font-size: large;
+    align-self: auto;
+    padding-bottom: 0%;    
+}
+
+.soundcloudxd{
+    width:100%;
+    overflow:auto;
+}
+.sditem {
+  width:50%;
+  float:left;
+}
+
+.thingimg{
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    object-fit: scale-down;
+    
+    float:left;
+}
+
+.thing{
+    background-color: blanchedalmond;
+    width:100%;
+    overflow:auto;
+    font-display:auto;
+}
+
+.thing div{
+    width:50%;
+    float:left;
+}
+
+.thingtext{
+    padding-left: 1%;
+    padding-top: 2%;
+    font-size: medium;
+    text-align: left;
+}
